@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    /* font-family: 'Gorditas', cursive; */
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    padding: 11px 0;
+    background-color: #ffff;
+}
+.container{
+    margin: 0 auto;
+}
+@media screen and (min-width:1200px){
+    .container{
+        max-width: 1170px;
+    }   
+}
+@media screen and (min-width:1600px){
+    .container{
+        max-width: 1550px;
+    }   
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    padding-left: 308px;
+}
+ul li{
+    padding: 0 15px;
+    font-weight: 500;
+    line-height: 31px;
+}
+ 
+.banner a,
+.contact_us{
+    border:1px solid red;
+    padding:15px 40px;
+    background-color: red;
+    color: #fff;
+    
+}
+.banner a:hover,
+.contact_us:hover{
+    color: red;
+    background-color: #ffff;
+}
+a{
+    text-decoration: none;
+}
+li:hover{
+    color: red;
+}
+.banner{
+    background-repeat: no-repeat;
+    background-image: url('./Image/Rectangle195.png');
+    width: 100%;
+    height: 780px;
+    position: relative;
+    /* padding: 155px 0;
+    min-height:688px;
+} */
+}
+.banner__about{  
+    position: absolute;
+    width: 710px;
+    height: 410px;
+    padding-top: 50px;
+    padding-left: 81px;
+    padding-bottom: 50px;
+    color: #ffff;
+    background-color:#0E3482;
+    margin: 132px 0;
+}
+.banner .banner__case{
+    position: relative;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-style: normal;
+    margin-left: 17px;
+    padding-left: 17px;
+}
+.banner .banner__case::before{
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 48px;
+    left: -14px;
+    top: -9px;
+    background: linear-gradient(
+    180deg, #FFE11A 0%, #FE0000 112.5%);
+}
+.banner h1{
+    padding: 10px 0;
+    font-size: 38px;
+    color:#ffff;
+    text-transform: capitalize;
+}
+.banner .banner__dis{
+    padding: 15px 0;
+    padding-bottom: 40px;
+    font-size: 24px;
+    font-family: 'Open Sans';
+    color:#ffff;
+    line-height: 38px;
+    text-transform: capitalize;
+    margin-top: 15px;
+}
+.banner .banner__dis span{
+    display: block;
+}
+.banner a{
+    margin-top: 18px;
+    color: #ffff;
+}
+.banner a .arrow{
+    width: 35px;
+    margin-left: 12px;
+    box-sizing: border-box;
+    color: #ffff;
+}
